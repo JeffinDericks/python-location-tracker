@@ -1,0 +1,191 @@
+header{
+    background-color: yellow;
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+
+body{
+    background-color: black;
+}
+.topic{
+    display: flex;
+    margin-left: 20px;
+}
+
+.topic img{
+    mix-blend-mode: multiply;
+}
+
+.topic p{
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: -15px;
+}
+
+nav{
+    height: 40px;
+    width: 100%;
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 31px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: 550px;
+    font-weight: 550;
+
+}
+
+.nameof{
+    display: flex;
+    margin-left: 600px;
+}
+
+.nameof .loc{
+    font-size: 150px;
+    color: yellow;
+    margin-top: 40px;
+
+}
+
+.nameof .h1{
+    color: yellow;
+    font-size: 70px;
+    text-align: center;
+    margin-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+.te{
+    margin-top: -120px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.te p{
+    color: bisque;
+    font-size: 20px;
+    font-weight: 550;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.span1{
+    color: yellow;
+    font-size: 25px;
+}
+
+.form1 select{
+    margin-left: 740px;
+    font-size: 22px;
+    padding: 15px 40px;
+    display: block;
+}
+
+.button{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 780px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: lightyellow;
+}
+
+.result{
+    margin-left: 715px;
+}
+
+.span2{
+    color: yellow;
+}
+
+.result .code{
+    color: antiquewhite;
+}
+
+.tracker{
+    margin-top: 40px;
+}
+
+.tracker  a{
+    border: 2px solid yellow;
+    background-color: yellow;
+    border-radius: 10px;
+    color: black;
+    padding: 10px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    margin-left: 935px;
+    font-weight: 550;
+    font-size: 22px;
+}
+
+
+
+/* main html starts here  */
+
+
+.textt .text{
+    color: beige;
+    font-size: 22px;
+    text-align: center;
+    margin-top: -100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.span3{
+    color: yellow;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nameof .h11{
+    color: yellow;
+    font-size: 70px;
+    text-align: center;
+    margin-left: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.button1{
+        font-size: 20px;
+        font-weight: 550;
+        margin-top: 20px;
+        margin-left: 820px;
+        padding: 10px 30px;
+        border-radius: 10px;
+        background-color: yellow;
+}
+
+.nowithcc{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 720px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: lightyellow;
+}
+
+.output{
+    display: flex;
+    width: 50%;
+    /* background-color: aqua; */
+    margin-left: 450px;
+    justify-content: space-around;
+    padding-left: 80px;
+}
+
+.lefty{
+    color: yellow;
+}
+
+.righty{
+    color: yellow;
+}
+

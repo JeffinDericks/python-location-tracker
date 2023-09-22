@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <script src="https://kit.fontawesome.com/8b134085b2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="topic">
+            <img src="../static/images/navbar_logo.png" alt="" height="90px" width="90px">
+            <p>naviGATE</p>
+        </div>        
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About us</a>
+            <a href="#">Screens</a>
+            <a href="#">GPS tracker</a>
+            <a href="#">Figure out</a>
+            <a href="#">Privacy Policy</a>
+        </nav>
+    </header>
+
+    <div class="nameof">
+        <p class="loc"><i class="fa-solid fa-location-dot"></i></p>
+        
+        <h1 class="h1">Live Mobile <br>Location</h1>
+   </div>
+
+
+   <div class="te">
+    <p>Catch your <span class="span1">COUNTRY CODE</span> by dropping your <br> country name here <i class="fa-solid fa-angle-down"></i></p>
+   </div>
+
+   <form action="" method="post" class="form1">
+        <select name="code" id="">
+            <option value="+91">India</option>
+            <option value="+65">Singapore</option>
+            <option value="+1">US</option>
+            <option value="+1">Canada</option>
+
+        </select>
+        <button type="submit" class="button">Get Code</button>
+
+   </form>
+   <div class="result">
+    <h1 class="code">Country Code : <span class="span2">{{code}}</span></h1>
+   </div>
+
+   <div class="tracker">
+        <a href="{{url_for('main')}}">Track Now <i class="fa-solid fa-angle-right"></i></a>
+   </div>
+
+</body>
+</html>
